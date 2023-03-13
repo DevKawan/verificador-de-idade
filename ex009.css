@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Yeon+Sung&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    outline: 1px solid #2f5ef5;
+}
+
+a {
+    text-align: center;
+    font-weight: bolder;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.main {
+    background-color: #dfdfdf;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.481);
+}
+
+.form div {
+    padding: 5px;
+}
+
+.nascimento {
+    font-size: 18px;
+}
+
+.nascimento input {
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid #5555ff;
+}
+
+.sexo .titulo-sexo {
+    font-size: 18px;
+}
+
+.sexo span {
+    font-size: 15px;
+}
+
+#res{
+    width: 200px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4a56f6;
+    color:#fff;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    display: none;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.367);
+}
+
+.consultar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.consultar input{
+    cursor: pointer;
+    color:#fff;
+    background-color: #4a56f6 ;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    transition: all 500ms;
+    font-size: 16px;
+}
+
+.consultar input:hover {
+    background-color: #636cf5;
+}
+
+.rodape {
+    font-size: 11px;
+    margin-top: 15px;
+}
