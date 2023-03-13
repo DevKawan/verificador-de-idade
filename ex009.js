@@ -18,6 +18,7 @@ function verificar () {
             genero = "um homem"
             if (idade >= 0 && idade < 10){
             //criança
+            genero = "um bêbê/criança"
             img.src = 'images/foto-bebe.jpg'
             img.style.display = 'flex'
         } else if (idade < 21 ) {
@@ -37,6 +38,7 @@ function verificar () {
             genero = "uma mulher"
             if (idade >= 0 && idade < 10){
             //criança
+            genero = "um bêbê/criança"
             img.src = 'images/foto-bebe.jpg'
             img.style.display = 'flex'
         } else if (idade < 21 ) {
